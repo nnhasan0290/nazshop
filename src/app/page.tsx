@@ -1,8 +1,9 @@
+import Header from "@/components/Header/Header";
 
 export default function Home() {
   return (
-    <main className="">
-      <h2>main app is here</h2>
-    </main>
+    <div className="container mx-auto">
+      <Header />
+    </div>
   );
 }
