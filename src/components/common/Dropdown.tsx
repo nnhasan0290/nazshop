@@ -1,7 +1,7 @@
-const Dropdown = () => {
+const Dropdown = ({ children }: any) => {
   return (
-    <div className="absolute p-3 top-[100%] right-0 border min-w-full">
-      <h2>This is the dropdown inside</h2>
+    <div className="hidden group-hover:block bg-white p-3 top-[100%] right-0 border  min-w-[200px] absolute">
+      {children}
     </div>
   );
 };
