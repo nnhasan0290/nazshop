@@ -6,7 +6,7 @@ import Dropdown from "../common/Dropdown";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center my-2 relative">
+    <div className="flex justify-between items-center my-2 relative ">
       <h1 className="font-bold text-2xl cursor-pointer">NAZSHOP</h1>
       <div className="flex gap-4 items-stretch">
         <SearchForm />

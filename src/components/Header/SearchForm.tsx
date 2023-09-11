@@ -27,7 +27,7 @@ const SearchForm = () => {
       />
       <button
         type="submit"
-        className="border px-3 rounded-r-md hover:bg-black transition-all duration-300 hover:text-white"
+        className="border px-3 rounded-r-md bg-black hover:bg-hovered transition-all duration-300 text-white"
       >
         <TfiSearch size={22} />
       </button>
