@@ -37,3 +37,10 @@
   color: white;
   background-position: right;
 }
+
+@media screen and (max-width: 1024px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important; /* Hide navigation arrows */
+  }
+}

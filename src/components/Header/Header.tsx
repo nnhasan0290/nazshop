@@ -1,4 +1,3 @@
-
 import { TfiWorld } from "react-icons/tfi";
 import { AiOutlineUser, AiOutlineShopping } from "react-icons/ai";
 import SearchForm from "./SearchForm";
