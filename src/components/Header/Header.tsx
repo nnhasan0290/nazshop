@@ -2,6 +2,7 @@ import { TfiWorld } from "react-icons/tfi";
 import { AiOutlineUser, AiOutlineShopping } from "react-icons/ai";
 import SearchForm from "./SearchForm";
 import Dropdown from "../common/Dropdown";
+import LoginDropdown from "./LoginDropdown";
 
 const Header = () => {
   return (
@@ -36,10 +37,7 @@ const Header = () => {
             <AiOutlineUser size={25} className={"cursor-pointer"} />
 
             <Dropdown>
-              <h2>option one</h2>
-              <h2>option one</h2>
-              <h2>option one</h2>
-              <h2>option one</h2>
+              <LoginDropdown />
             </Dropdown>
           </div>
         </div>
