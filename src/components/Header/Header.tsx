@@ -3,6 +3,8 @@ import { AiOutlineUser, AiOutlineShopping } from "react-icons/ai";
 import SearchForm from "./SearchForm";
 import Dropdown from "../common/Dropdown";
 import LoginDropdown from "./LoginDropdown";
+import LanguageDropdown from "./LanguageDropdown";
+import CartDropdown from "./CartDropdown";
 
 const Header = () => {
   return (
@@ -17,20 +19,14 @@ const Header = () => {
               3
             </span>
             <Dropdown>
-              <h2>option one</h2>
-              <h2>option one</h2>
-              <h2>option one</h2>
-              <h2>option one</h2>
+              <CartDropdown/>
             </Dropdown>
           </div>
           <div className="relative cursor-pointer group flex items-center">
             <TfiWorld size={23} className="cursor-pointer" />
 
             <Dropdown>
-              <h2>option one</h2>
-              <h2>option one</h2>
-              <h2>option one</h2>
-              <h2>option one</h2>
+              <LanguageDropdown/>
             </Dropdown>
           </div>
           <div className="relative cursor-pointer group flex items-center">
