@@ -1,6 +1,7 @@
 import { BsTrash } from "react-icons/bs";
 import Divider from "../common/Divider";
 import Button from "../common/Button";
+import IconButton from "../common/IconButton";
 
 const CartDropdown = () => {
   return (
@@ -14,12 +15,14 @@ const CartDropdown = () => {
             <span className="truncate text-sm">
               this is a title this is another title
             </span>
-            <BsTrash size={26} />
+            <div className="hover:text-red-500 transition-all duration-300">
+              <BsTrash size={23} />
+            </div>
           </div>
           <span className="font-bold">$52.99</span>
         </div>
       </div>
-      <Divider/>
+      <Divider />
       <div className="flex items-stretch gap-3">
         <img className="w-[100px]" src="/imgs/girlwithbag.jpg" alt="" />
         <div className="flex flex-col justify-between grow">
@@ -27,12 +30,14 @@ const CartDropdown = () => {
             <span className="truncate text-sm">
               this is a title this is another title
             </span>
-            <BsTrash size={26} />
+            <div className="hover:text-red-500 transition-all duration-300">
+              <BsTrash size={23} />
+            </div>
           </div>
           <span className="font-bold">$52.99</span>
         </div>
       </div>
-      <Divider/>
+      <Divider />
       <Button>Checkout</Button>
     </div>
   );
