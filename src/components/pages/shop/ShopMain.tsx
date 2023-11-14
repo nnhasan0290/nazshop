@@ -1,10 +1,21 @@
+import SingleProduct from "@/components/common/SingleProduct";
 import Sidebar from "./Sidebar";
+import ShopPdHead from "./ui/ShopPdHead";
 
 const ShopMain = () => {
   return (
-    <div className="flex bg-[#F9F9F9] p-5 items-start gap-5">
+    <div className="flex  py-5 items-start gap-5">
       <Sidebar />
-      <h2 className="bg-blue-500 w-full h-[2000px]">Shop main</h2>
+      <div className="flex flex-col w-full gap-5">
+        <ShopPdHead />
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 bg-white p-3 rounded-md shadow-sm">
+          {Array(10)
+            .fill(0)
+            .map((each) => (
+              <SingleProduct />
+            ))}
+        </div>
+      </div>
     </div>
   );
 };

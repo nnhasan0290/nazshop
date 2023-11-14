@@ -6,10 +6,10 @@ import "swiper/css";
 
 export default function Home() {
   return (
-    <>
+    <div className="container mx-auto">
       <Header />
       <ShopMain />
       <Footer />
-    </>
+    </div>
   );
 }
