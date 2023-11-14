@@ -18,12 +18,17 @@ const config: Config = {
       },
       animation: {
         drop: "dropdown 0.3s ease",
+        scale: "scale 0.3s ease",
       },
       keyframes: {
         dropdown: {
           "0%": { transform: "scaleY(0)" },
           "80%": { transform: "scaleY(1.1)" },
           "100%": { transform: "scaleY(1)" },
+        },
+        scale: {
+          "0%": { transform: "scaleX(0)" },
+          "100%": { transform: "scaleX(1)" },
         },
       },
     },
