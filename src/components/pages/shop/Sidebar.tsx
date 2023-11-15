@@ -9,7 +9,7 @@ import Button from "@/components/common/Button";
 
 const Sidebar = () => {
   return (
-    <div className="h-[100vh] sticky top-0 border px-5 py-3 bg-white rounded-md min-w-[250px] overflow-y-scroll shadow-sm">
+    <div className="h-[100vh] sticky top-0 border px-5 py-3 bg-white rounded-md min-w-[250px] overflow-y-scroll shadow-lg hidden lg:block">
       <NormalHead>Filters</NormalHead>
       <Separator />
       <Category />

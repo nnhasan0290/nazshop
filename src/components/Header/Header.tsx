@@ -1,4 +1,4 @@
-import { TfiWorld } from "react-icons/tfi";
+import { TfiFilter, TfiWorld } from "react-icons/tfi";
 import { AiOutlineUser, AiOutlineShopping } from "react-icons/ai";
 import SearchForm from "./SearchForm";
 import Dropdown from "../common/Dropdown";
@@ -8,7 +8,7 @@ import CartDropdown from "./CartDropdown";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center my-2 relative container mx-auto">
+    <div className="flex justify-between items-center my-2 relative container mx-auto border p-2 rounded-md">
       <h1 className="font-bold text-2xl cursor-pointer">NAZSHOP</h1>
       <div className="flex gap-4 items-stretch">
         <SearchForm />
@@ -19,14 +19,14 @@ const Header = () => {
               3
             </span>
             <Dropdown>
-              <CartDropdown/>
+              <CartDropdown />
             </Dropdown>
           </div>
           <div className="relative cursor-pointer group flex items-center">
             <TfiWorld size={23} className="cursor-pointer" />
 
             <Dropdown>
-              <LanguageDropdown/>
+              <LanguageDropdown />
             </Dropdown>
           </div>
           <div className="relative cursor-pointer group flex items-center">
