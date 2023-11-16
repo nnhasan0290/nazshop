@@ -2,9 +2,9 @@ import ImgArea from "./ui/ImageArea";
 
 const ProductBody = () => {
   return (
-    <div className="container grid grid-cols-2 mx-auto">
+    <div className="container grid grid-cols-2 mx-auto my-10">
       <ImgArea />
-      <div className="border">details areaI</div>
+      <div>details areaI</div>
     </div>
   );
 };

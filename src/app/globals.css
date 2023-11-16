@@ -61,6 +61,14 @@ body {
   border-radius: 10px;
 }
 
+.mySwiper .swiper-slide {
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
 @media screen and (max-width: 1024px) {
   .swiper-button-prev,
   .swiper-button-next {

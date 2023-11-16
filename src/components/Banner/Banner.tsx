@@ -13,8 +13,12 @@ const Banner = () => {
         rewind={true}
         loop={true}
         pagination={true}
+        style={{
+          "--swiper-navigation-color": "#fff",
+          "--swiper-pagination-color": "#fff",
+        }}
       >
-        <SwiperSlide>
+        <SwiperSlide style={{ opacity: 1 }}>
           <div className="relative">
             <img
               className="h-[300px] sm:h-[500px] lg:h-[700px] w-full object-cover "
@@ -37,7 +41,7 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide style={{ opacity: 1 }}>
           <img
             className="h-[300px] sm:h-[500px] lg:h-[700px] w-full object-cover "
             src="/imgs/pinkwall.jpg"
