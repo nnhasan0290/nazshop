@@ -1,10 +1,11 @@
+import DetailsArea from "./ui/DetailsArea";
 import ImgArea from "./ui/ImageArea";
 
 const ProductBody = () => {
   return (
-    <div className="container grid grid-cols-2 mx-auto my-10">
+    <div className="container lg:grid grid-cols-2 mx-auto my-10 items-center gap-5">
       <ImgArea />
-      <div>details areaI</div>
+      <DetailsArea />
     </div>
   );
 };
