@@ -25,7 +25,10 @@ const Summary = () => {
         <span>Free</span>
       </div>
       <Divider />
-      <NormalHead>Total: $12393</NormalHead>
+      <div className="grid grid-cols-2">
+        <NormalHead>Total </NormalHead>
+        <NormalHead>$18383 </NormalHead>
+      </div>
     </div>
   );
 };
